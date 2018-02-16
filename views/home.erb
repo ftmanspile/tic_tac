@@ -8,48 +8,52 @@
 <center><body>
 	<font size= "48" color= "black"><marquee direction="left" scrollamount="9" class="vote">Welcome to Tic Tac Toe </a> </marquee></font>
 	<br><br><br><br><br><br><br><br><br>
-<center><table id="board">
+<center><table id="tic_board">
 <tr>
-<td><select id="mode">
+<td> <form method="post" action="board">
+	<select type="" name="space1" id=" ">
+			   <option value=" "></option>
+               <option value="X">X</option>
+               <option value="O">O</option></select></td>
+<td><select type="" name="space2">
+               <option Selected></option>
+               <option value="X">X</option>
+               <option value="O">O</option></td>
+<td><select type="" name="space3">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
-               <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
-               <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
+               <option value="X">X</option>
+               <option value="O">O</option></td>
   </tr>
 <tr>
-<td><select id="mode">
+<td><select type="" name="space4" id="space4">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
+               <option value="X">X</option>
+               <option value="O">O</option></td>
+<td><select type="" name="space5" id="space5">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
+               <option value="X">X</option>
+               <option value="O">O</option></td>
+<td><select type="" name="space6" id="space6">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
+               <option value="X">X</option>
+               <option value="O">O</option></td>
   </tr>
 <tr>
-<td><select id="mode">
+<td><select type="" name="space7" id="space7">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
+               <option value="X">X</option>
+               <option value="O">O</option></td>
+<td><select type="" name="space8" id="space8">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
-<td><select id="mode">
+               <option value="X">X</option>
+               <option value="O">O</option></td>
+<td><select type="" name="space9" id="space9">
                <option Selected>Choose</option>
-               <option value="1">X</option>
-               <option value="2">O</option></td>
+               <option value="X">X</option>
+               <option value="O">O</option></td>
   </tr>
 </table></center>
+<input type="submit" class="buttonSubmit">
+<br>
+<a href='//localhost:4567'>Reset</a>
 </body></center>
